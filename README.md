@@ -101,3 +101,4 @@ We could set up the number of bins to a different value when applying the FFT. F
 **6. References**
 
 The dataset is cloned from http://www.iitk.ac.in/iil/datasets/. It contains four class of drill Bit types. [Nishchal K. Verma, R. K. Sevakula, S. Dixit and A. Salour, Data Driven Approach for Drill Bit Monitoring, IEEE Reliability Magazine, pp. 19-26, Feb. 2015.]
+
