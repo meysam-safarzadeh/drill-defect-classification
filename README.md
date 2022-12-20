@@ -107,6 +107,6 @@ The dataset is cloned from http://www.iitk.ac.in/iil/datasets/. It contains four
 
 Role/Contribution:
 
-Louis Ebermann: Coded the preprocessing and fft-feature classification.
-Meysam Safarzadeh: Coded the feature extraction and ANN classifier.
-Jianmei Wu: Drafted the report.
+* Louis Ebermann: Coded the preprocessing and fft-feature classification.
+* Meysam Safarzadeh: Coded the feature extraction and ANN classifier.
+* Jianmei Wu: Drafted the report.
