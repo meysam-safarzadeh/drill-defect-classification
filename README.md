@@ -1,1 +1,1 @@
-# Drill-defect-classification
+# Drill Defect Classification
