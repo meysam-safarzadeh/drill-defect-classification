@@ -1,14 +1,14 @@
 # Drill Defect Classification
 
-**1. Introduction**
+## **1. Introduction**
 
    As drilling happens, wear of drill bits occurs. In this project, 3 types of wear data and 1 healthy data have been studied and analyzed. The purpose of drill wear detection is to identify the best strategy with the highest recognition accuracy through pre-processing, feature extraction, and classification.
 
-**2. Drill Bit Monitoring**
+## **2. Drill Bit Monitoring**
 
    There exist 2 stages in the drilling process: penetration and steady. 3 types of wear occur when drilling happens: flank, chisel, and outer corner. 4 datasets are available: Drill 1 for flank wear, Drill 2 for chisel wear, Drill 3 for outer corner wear, and Drill 4 for healthy data.
 
-**3. Faulty Recognition Model**
+## **3. Faulty Recognition Model**
   
   - **Preprocessing**
 
@@ -78,7 +78,7 @@
     ![image](https://user-images.githubusercontent.com/51737180/208765415-d5903b2d-d230-494a-a5ba-a163f2dd9517.png)
 
 
-**4. Performance Evaluation**
+## **4. Performance Evaluation**
 
 
    ANN classification shows the highest results in classifying the data with selected pre-processing and cross-validation parameters.
@@ -91,19 +91,19 @@
 
    We can see that ANN performs the best in the Penetration and Combined stages while Decision TREE performs the best in a steady state. Accuracy for kNN is the worst in both penetration and steady stage. ANN is the winner. Average accuracy is the highest in the penetration stage, and worst in the steady state, stable from 93% to 96% overall. 
 
-**5. Conclusions & Key Takeaways**
+## **5. Conclusions & Key Takeaways**
 
 
    Frequency domain features yield the best classification results among the 3 classifiers we selected. ANN has the best performance for the FFT data.
 We could set up the number of bins to a different value when applying the FFT. For data partitioning, we could split the data as training, validation and testing. Besides the above 3 classifiers we selected, we could also try SVM, k-means or Random Forest classifiers. For the Time domain/Morlet data, PCM could be a method to change the current bad results.
 
 
-**6. References**
+## **6. References**
 
 The dataset is cloned from http://www.iitk.ac.in/iil/datasets/. It contains four class of drill Bit types. [Nishchal K. Verma, R. K. Sevakula, S. Dixit and A. Salour, Data Driven Approach for Drill Bit Monitoring, IEEE Reliability Magazine, pp. 19-26, Feb. 2015.]
 
 
-**Contribution:**
+## **Contributions**
 
 * Louis Ebermann: Coded the preprocessing and fft-feature classification.
 * Meysam Safarzadeh: Coded the feature extraction and ANN classifier.
