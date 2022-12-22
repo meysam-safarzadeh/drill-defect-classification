@@ -103,7 +103,7 @@ We could set up the number of bins to a different value when applying the FFT. F
 The dataset is cloned from http://www.iitk.ac.in/iil/datasets/. It contains four class of drill Bit types. [Nishchal K. Verma, R. K. Sevakula, S. Dixit and A. Salour, Data Driven Approach for Drill Bit Monitoring, IEEE Reliability Magazine, pp. 19-26, Feb. 2015.]
 
 
-## **Contribution:**
+## **Contributions**
 
 * Louis Ebermann: Coded the preprocessing and fft-feature classification.
 * Meysam Safarzadeh: Coded the feature extraction and ANN classifier.
